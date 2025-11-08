@@ -1,0 +1,34 @@
+{
+    "python.condaPath": "/home/srikar/miniconda3/bin/conda",
+    "python.defaultInterpreterPath": "/home/srikar/miniconda3/envs/ML_Learning/bin/python",
+    "python.autoComplete.extraPaths": [],
+    "python.terminal.activateEnvironment": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": ["--line-length", "88"],
+    "python.analysis.indexing": false,
+    "python.analysis.memory.keepLibraryAst": false,
+    "terminal.integrated.scrollback": 10000,
+    "terminal.integrated.env.linux": {
+        "PYTHONUNBUFFERED": "1"
+    },
+    "terminal.integrated.profiles.linux": {
+        "bash (ML_Learning)": {
+            "path": "/bin/bash",
+            "args": ["--rcfile", "${workspaceFolder}/.vscode/activate.sh"]
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "bash (ML_Learning)",
+
+    // Performance tweaks
+    "python.venvFolders": [
+        "/home/srikar/miniconda3/envs"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/srikar/miniconda3/envs/ML_Learning/lib/python3.11/site-packages"
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "python-envs.pythonProjects": []
+}
